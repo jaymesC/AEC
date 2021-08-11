@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="contact.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+  integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+  crossorigin="anonymous"
+/>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Lobster&display=swap" rel="stylesheet">
+<title>Asphalt Equipment company</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body >
+    
+  <nav class="Navbar">
+    <div class="navbar-header ">
+    <a href="index.html"><img src="./logo.png" alt="" id="logo"></a>
+  </div>
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      </a>
+    </span>
+
+    <ul class="Navbar_nav">
+      <li><a href="about.html">About</a></li>
+      <li><a href="service.html">Services</a></li>
+      <li><a href="project.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>  
+    </ul>
+  </nav>
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="Btn-close" onclick="closeSlideMenu()" id="close">&times;</a>
+      <a href= 'about.html'>About</a>
+      <a href= 'service.html'>Services</a>
+      <a href= 'project.html'>Projects</a>
+      <a href= 'contact.html'>Contact</a>
+  </div>
+  <section class="home__image">
+    <img src="./images/Annotation 2021-04-25 232525.png" alt="">
+    <div id="write__up"><p>Delivering the best <br> Engineering solutions <br> in construction</p></div>
+  </section>
+  <div id="main" onclick="closeSlideMenu()">
+    <div class="container">
+            <!-- Start Content Section -->
+      <section id="content">
+        <div class="container">
+          <p class="message">Please fill in the form below with the necessary information to contact us, and we will get <br> in touch with you as soon as possible.</p>
+          <div class="row">
+            
+            <div class="col-md-7 form-list">
+              <h2 class="big-title2">Contact us:</h2>   
+
+            <!-- Start Contact Form -->
+            <form role="form" id="contactForm" class="contact-form"  action="form-process.php" method="POST" >
+              <div class="form-group">
+                <div class="controls">
+                  <input type="text" id="company" class="form-control" placeholder="Company:" required>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <input type="text" id="name" class="form-control" placeholder="Name:" required >
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <input type="email" class="email form-control" id="email" placeholder="Email:" required>
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <input type="text" id="msg_subject" class="form-control" placeholder="Subject:" required >
+                  <div class="help-block with-errors"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="controls">
+                  <textarea id="message" rows="7" placeholder="Message:" class="form-control" required></textarea>
+                  <div class="help-block with-errors"></div>
+                </div>  
+              </div>
+
+              <button type="submit" id="submit" class="btn btn-effect float-right"> Send <i class="far fa-paper-plane"></i></button>
+              <!-- <div id="msgSubmit" class="h3 text-center hidden"></div>  -->
+              <div class="clearfix"></div>   
+
+            </form>     
+            <!-- End Contact Form -->
+
+            </div>
+            <div class="col-md-5">
+              <h2 class="big-title"></h2>   
+              <div class="information">              
+                <div class="contact-datails">
+                  <p><i class="fa fas fa-phone-alt"></i> Phone: +234-817-217-5599 </p> 
+                  <p><i class="fas fa-envelope"></i> Email: asphaltnequipment@gmail.com<br> </p>
+                  <p><i class="fas fa-map-marker-alt "></i>Coorperate Headquarters: <br> 74, Km East West Road, <br> <span >Port Harcourt, Rivers State.</span></p>                 
+                  <p>Plant Location : <br> Industrial Layout, New Owerri, Imo State.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Start Map Section -->
+      <div class="map-area">      
+        <div class="map">        
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.4348313197265!2d6.998620914763!3d4.866578696466344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1069d1fa19fee7f3%3A0x43556d181caccbd5!2sASPHALT%20%26%20EQUIPMENT%20CO.%20LTD.!5e0!3m2!1sen!2sng!4v1624311511511!5m2!1sen!2sng"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" height="400" width="100%" loading="lazy">
+          </iframe>
+         </div>
+      </div>
+      <!-- End Map Section -->
+      <img src="./images/Annotation 2021-04-25 233053.jpg" alt="" id="annotationImg" >
+    </div>
+    <div class="bottom-pad"></div>
+
+  </div>
+
+ 
+
+  <footer >
+    <section class="footer">
+    <section> <a href="index.html"><img src="./logo.png" alt=""></a></section>
+    
+    <section >
+      <li class="links"> <a href="index.html">Home</a></li>
+      <li class="links"> <a href="service.html">Service</a></li>
+      <li class="links"> <a href="about.html">About</a> </li>
+      <li class="links"><a href="contact.html">Contact</a> </li>
+    </section>
+    <section>
+      <h5>Address</h5>
+      <p>Corporate Headquarters : <br> No. 74, Km 2, East-West Road, <br> Port Harcourt, Rivers State. </p>
+        <br>
+        <p>Plant Location : <br> Industrial Layout, New Owerri, Imo State.</p>
+    </section>
+    <section>
+      <h5>Contact</h5>
+      <p>
+        Phone : +234-817-217-5599
+        </p>
+        <br>
+        <p>E-Mail : asphaltnequipment@gmail.com</p>
+        
+        <button class="scrollToTopBtn"><i class="fas fa-chevron-up"></i></button>
+    </section>
+  </section>
+
+    <div class="trademark">
+      <p class="love">JESUS!!!</p>
+      <p>Forward Technologies | AEC <span id="copyright-year">2021</span></p>
+      <!-- <p>Forward Technologies</p> -->
+    </div>
+  </footer>
+
+
+  <script src="app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+  <script>
+    gsap.to("#write__up", {duration: 1.5, y: -150, });
+
+  </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
