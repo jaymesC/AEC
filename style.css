@@ -146,24 +146,11 @@
   padding-bottom: 0.3rem;
 }
 
-.photo__section {
-  background-color: black;
-  color: white;
-  text-align: center;
-  font-size: 18px;
-}
-
-.photo__section h2{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  font-family: 'Oswald';
-}
-
 .black{
   background-color: black;
   padding-top: 20px;
-  padding-bottom: 80px;
-  margin-bottom: 30px;
+  padding-bottom: 100px;
+  margin-bottom: 20px;
 }
 
 /* #carousel-Slide {
